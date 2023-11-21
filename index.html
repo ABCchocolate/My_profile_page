@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳이에요.-->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="박유신 - 프로필 링크" />
+        <meta property="og:description" content="백엔드 프로그래머를 희망하는 프로그래머입니다." />
+        <meta property="og:image" content="/Users/bag-yusin/Desktop/자기소개서/portfolio/introduce-myself/profile.png" />
+        <title>박유신 - 프로필 링크</title>
+
+        <style>
+            body{
+                background-color: gray;
+            }
+            @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+            * {
+                font-family: "Pretendard",serif;
+                }
+            .profile{
+                width : 150px;
+                height: 150px;
+
+                background-color: black;
+                border-radius: 100%;
+
+                border : 1px solid white;
+
+                background-image: url('/introduce-myself/profile.png');
+                background-position: center;
+                background-size: cover;
+            }
+
+            .main{
+                color:white;
+                font-size : 20px;
+
+                margin-top: 30px;
+                margin-bottom: 0px;
+            }
+
+            .sub{
+                color:white;
+                font-size : 14px;
+
+                margin-top:10px;
+                margin-bottom:30px;
+            }
+
+            .wrap{
+                width: 400px;
+                margin: 30px auto 0px auto;
+
+                display:flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .wrap > a{
+                width: 300px;
+                height: 50px;
+
+                background-color: white;
+                border-radius: 8px;
+
+                margin-bottom: 10px;
+                font-size: 14px;
+                font-weight: bold;
+                color : black;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                text-decoration: none;
+
+                box-shadow: 3px 3px 5px 0px black;
+            }
+
+            .wrap > a:hover{
+                background-color: #f2f2f2;
+            }
+        </style>
+    </head>
+    <body>
+        <div class = "wrap">
+            <div class = "profile"> </div>
+            <h1 class = "main"> 박유신 </h1>
+            <p class = "sub"> 백엔드 프로그래머를 꿈꾸는 개발지망생입니다. </p>
+            
+            <a target="_blank" href="https://spartacodingclub.kr/"> 자기소개 </a>
+            <a target="_blank" href="https://hanghae99.spartacodingclub.kr/"> 가능한 기술 </a>
+            <a target="_blank" href="https://chang.spartacodingclub.kr/"> 포트폴리오 목록 </a>
+        </div>
+    </body>
+</html>
