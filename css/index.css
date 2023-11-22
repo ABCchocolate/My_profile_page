@@ -1,14 +1,11 @@
 body{
     background-color: gray;
-}
-@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
-* {
-    font-family: "Pretendard",serif;
 
     font-family: 'Noto Serif KR', serif;
     font-family: 'Poppins', sans-serif;
-    }
-
+    font-family: 'Vina Sans', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&family=Poppins:wght@300;400;500;600;700&display=swap');
     
 .profile{
     width : 150px;
