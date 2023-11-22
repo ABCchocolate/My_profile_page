@@ -1,0 +1,118 @@
+body{
+    background-color: gray;
+    display: flex;
+}
+
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+* {
+    font-family: "Pretendard",serif;
+
+    font-family: 'Noto Serif KR', serif;
+    font-family: 'Poppins', sans-serif;
+    }
+
+
+/* 프로필 사진 설정 */    
+.profile{
+    width: 150px;
+    height: 150px;
+
+    background-color: black;
+    border-radius: 100%;
+
+    border : 1px solid white;
+
+    background-image: url('/images/profile.png');
+    background-position: center;
+    background-size:cover;
+}
+
+.main{
+    /* 이름 */
+    color:white;
+    font-size: 20px;
+
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.sub{
+    color: white;
+    font-size: 14px;
+
+    margin-top:10px;
+    margin-bottom:30px;
+}
+
+.eng_sub{
+    color:white;
+    font-size: 14px;
+
+    margin-top: 0px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.wrap{
+    flex:1;
+    /* width: 400px; */
+    margin:0px 0px 0px 0px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap > a{
+    width: 300px;
+    height: 50px;
+
+    background-color: white;
+    border-radius: 8px;
+
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color : black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+
+    box-shadow: 3px 3px 5px 0px black;
+}
+.wrap > a:hover{
+    background-color: #f2f2f2;
+}
+
+.intro_myself{
+    background-color: white;
+    border-radius: 8px;
+
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+/*아래서 부터 웹 페이지 공간 배치 */
+
+
+
+.introduce{
+
+    flex:3;
+    /* background-color: #495057; */
+    background-color: #999999;
+    border-radius: 5%;
+
+    
+     
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

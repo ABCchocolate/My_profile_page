@@ -4,7 +4,12 @@ body{
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
 * {
     font-family: "Pretendard",serif;
+
+    font-family: 'Noto Serif KR', serif;
+    font-family: 'Poppins', sans-serif;
     }
+
+    
 .profile{
     width : 150px;
     height: 150px;
@@ -14,7 +19,7 @@ body{
 
     border : 1px solid white;
 
-    background-image: url('profile.png');
+    background-image: url('/images/profile.png');
     background-position: center;
     background-size: cover;
 }
@@ -35,6 +40,17 @@ body{
     margin-bottom:30px;
 }
 
+.eng_sub{
+    color:white;
+    font-size:14px;
+
+    margin-top: 10px;
+    margin-bottom:30px;
+    text-align: center;
+}
+
+
+/*아래서 부터 웹 페이지 공간 배치 */
 .wrap{
     width: 400px;
     margin: 30px auto 0px auto;
@@ -70,3 +86,6 @@ body{
 .wrap > a:hover{
     background-color: #f2f2f2;
 }
+
+
+
