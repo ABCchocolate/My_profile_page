@@ -11,7 +11,7 @@
 </head>
 <body>
     
-    <div class = "wrap" style= "float:left;">
+    <div class = "wrap" style= "float:left;" >
         <div class = "profile"></div>
         <h1 class = "main"> 박유신 </h1>
         <p class = "sub"> 백엔드 프로그래머를 꿈꾸는 개발지망생입니다. </p>
@@ -24,14 +24,14 @@
     </div>
 
     <div class = "introduce" style = "float:right;" >
-        <div class = "MAIN" >
+        <div class = "MAIN" id = "section1" >
             <div class = "KOR_ENG_introduce" style = "float:left">    
                 <h1 class = "eng_intro_main"> HELLO! I'm ParkYooShin!</h1>
                 <h2 class = "intro_main"> 안녕하세요! 박유신입니다!</h2> 
             </div>
             <div class = "photo_mine" style = "float:right"></div>
         </div>
-        <div class = "intro_myself">
+        <div class = "intro_myself" id = "section2">
             <hr/>
             <a> 저는 멈추지 않고 끊임없이 배우고 성장하는 개발자가 되는 것을 지향합니다. </a>
             <br><br>
@@ -53,8 +53,20 @@
     <div class = "NAV_warp" style = "float:right;">
         <div class = "nav">
             <h3> - 목록 - </h3>
-            <a> </a>
+            <a href="#section1">자기소개</a>
+            <br>
+            <a href="#section2"> PROJECT 1</a>
+
         </div>
     </div>
 </body>
 </html>
+
+<script>
+    $('a').click(function () {
+      $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+      }, 500);
+      return false;
+    });
+  </script>
